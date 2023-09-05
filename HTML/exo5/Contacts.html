@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me contacter</title>
+</head>
+<body>
+    <h1>Me contacter</h1>
+    <hr>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact</legend>
+
+            <label for="name">Nom:</label>
+            <input id="name" type="text" placeholder="Tapez votre nom">
+            <br>
+
+            <label for ="email">Email:</label>
+            <input id="email" type="email" placeholder="Votre adresse e-mail" name="email">
+            <br>
+
+            <label for="tel">Téléphone:</label>
+            <input id="tel" type="tel" placeholder="Votre numéro de téléphone" name="téléphone">
+            <br>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="description" placeholder="Tapez votre message ici !" rows="4" cols="20"></textarea>
+            <br>
+
+            <label for="genre">Genre:</label>
+            <input type="radio" id="homme" name="genre" value="homme"> 
+                <label for="homme">Homme</label>
+            <input type="radio" id="femme" name="genre" value="femme">
+                <label for="femme">Femme</label> 
+            <input type="radio" id="autres" name="genre" value="autre"> 
+                <label for="autres">Autre</label>
+            <br>
+
+            <label for="interets">Intérêts:</label>
+            <input type="checkbox" id="devweb" name="interets" value="dev_web"> 
+                <label for="devweb">Développement Web</label>
+            <input type="checkbox" id="devmobile" name="interets" value="dev_mobile"> 
+                <label for="devmobile">Développement Mobile</label>
+            <br>
+            
+            <label for="pays">Pays : </label>
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value ="allemagne">Allemagne</option>
+            </select>
+            <br>
+
+            <var></var>
+
+            <input type="submit" value="Envoyer">
+            <button type="reset">Reset</button>
+            <br>
+
+            
+        </fieldset>
+    </form>
+
+    <hr>
+   
+    <a href="./exo_04_MainPage_Garance.html">
+        <button>Retour à l'accueil</button>
+    </a>
+    
+    <button onclick="window.location.href='exo_05_MainPage_Garance.html'">Retour à l'accueil</button>
+    
+</body>
+</html>
